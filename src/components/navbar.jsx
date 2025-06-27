@@ -12,12 +12,10 @@ const Navbar = () => {
   return (
     <nav className="bg-[#B8956A] px-4 py-4 md:px-8">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
         <div className="text-white text-2xl md:text-3xl font-normal tracking-wide">
           trimoss
         </div>
 
-        {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center space-x-8">
           <Link
             to="/"
@@ -64,7 +62,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Desktop Auth Buttons */}
         <div className="hidden lg:flex items-center space-x-3">
           <button
             onClick={() => navigate("/login")}
@@ -80,7 +77,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
           className="lg:hidden text-white p-2"
@@ -90,7 +86,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="lg:hidden mt-4 pb-4">
           <div className="flex flex-col space-y-4">
@@ -137,7 +132,6 @@ const Navbar = () => {
               Contact
             </a>
 
-            {/* Mobile Auth Buttons */}
             <div className="flex flex-col space-y-3 pt-4 border-t border-white/20">
               <button
                 onClick={() => navigate("/login")}

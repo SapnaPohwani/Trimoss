@@ -4,15 +4,13 @@ import FeaturedCollections from "./featured";
 import TablesFurnitureSection from "./table-furniture";
 import MuralsSection from "./murals";
 
-
 const Home = () => {
   return (
     <div>
       <HeroSection />
-      <FeaturedCollections/>
-      <TablesFurnitureSection/>
-      <MuralsSection/>
-
+      <FeaturedCollections />
+      <TablesFurnitureSection />
+      <MuralsSection />
     </div>
   );
 };

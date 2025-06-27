@@ -1,8 +1,8 @@
 import React from "react";
 import HeroSection from "./hero";
-import TablesFurnitureSection from "../Home/table-furniture";
+import TablesFurnitureSection from "../home/table-furniture";
 
-import FeaturedCollections from "../Home/featured";
+import FeaturedCollections from "../home/featured";
 import MuralsSection from "./murals";
 import CondoProject from "./condo-project";
 import QuoteSection from "./quote-section";
@@ -13,9 +13,9 @@ const ShopPage = () => {
       <HeroSection />
       <FeaturedCollections />
       <TablesFurnitureSection />
-      <MuralsSection />
+      <MuralsSection/>
       <CondoProject />
-      <QuoteSection />
+      <QuoteSection/>
     </div>
   );
 };

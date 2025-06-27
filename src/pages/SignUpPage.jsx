@@ -23,8 +23,6 @@ export default function SignupPage() {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  // const [isOpen, setIsOpen] = useState(false);
-
   const onSubmit = (data) => {
     console.log(data);
     navigate("/login");
@@ -34,7 +32,6 @@ export default function SignupPage() {
     <div className="min-h-screen bg-white font-sans flex flex-col justify-between">
       
 
-      {/* Main Signup Section */}
       <div className="flex flex-col md:flex-row items-center justify-center px-4 md:px-20 py-16 bg-white">
         <div className="w-full md:w-1/2 rounded-3xl text-white flex items-center justify-center min-h-[400px]">
           <div className="w-full h-full bg-cover bg-center rounded-3xl relative bg-[#0f141b]">
@@ -95,21 +92,16 @@ export default function SignupPage() {
                 {errors.confirmPassword && <p className="text-red-500 text-sm">{errors.confirmPassword.message}</p>}
               </div>
             </div>
-
             <button type="submit" className="w-full bg-black text-white py-3 rounded-full font-medium hover:bg-gray-900">
               Create Account
             </button>
-
             <div className="text-center text-gray-500">Or</div>
-
             <Link to="/login" className="block text-center border border-gray-300 py-3 rounded-full hover:bg-gray-100">
               Log in
             </Link>
           </form>
         </div>
-      </div>
-
-      
+      </div>      
     </div>
   );
 }
