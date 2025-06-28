@@ -32,7 +32,6 @@ const FeaturedCollections = () => {
                   centuries-old craft.
                 </p>
               </div>
-
               <div>
                 <p className="text-base md:text-lg leading-relaxed">
                   Whether you're designing a serene foyer, a luxurious hotel
