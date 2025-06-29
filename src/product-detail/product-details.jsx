@@ -46,7 +46,6 @@ export default function HandMirrorPage() {
             ))}
           </ul>
         </div>
-
         <div className="max-w-prose">
           <h2 className="font-semibold mb-4">Details</h2>
           <p className="text-sm text-gray-700 leading-relaxed">
@@ -67,7 +66,6 @@ export default function HandMirrorPage() {
             className="w-64 md:w-80 h-auto object-cover rounded shadow"
           />
         </div>
-
         <div>
           <h2 className="text-lg font-semibold mb-2">HandMirror</h2>
           <p className="text-sm text-gray-700 mb-4">
@@ -75,7 +73,6 @@ export default function HandMirrorPage() {
             industry.
           </p>
           <p className="text-md mb-4 font-medium">$ (Price)</p>
-
           <div className="relative w-full max-w-[130px] mb-4">
             <select className="appearance-none w-full border border-gray-300 px-4 py-2 pr-8 rounded text-sm">
               <option>Large</option>
@@ -84,13 +81,11 @@ export default function HandMirrorPage() {
             </select>
             <ChevronDown className="absolute top-1/2 right-2 transform -translate-y-1/2 w-4 h-4 text-gray-600 pointer-events-none" />
           </div>
-
           <button className="w-full bg-black text-white py-2 rounded hover:bg-gray-900">
             Add to Cart
           </button>
         </div>
       </div>
-
       <div className="hidden md:flex justify-between absolute bottom-6 left-6 right-6">
         <div className="w-8 h-8 border rounded-md flex items-center justify-center cursor-pointer hover:bg-gray-100">
           <ChevronLeft className="w-5 h-5" />

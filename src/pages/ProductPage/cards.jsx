@@ -81,7 +81,6 @@ const ProductCards = () => {
             <div
               className={`relative w-full h-full flex flex-col items-center justify-between p-4 rounded-3xl shadow-xl ${product.bg}`}
             >
-              {/* Icons */}
               <div className="absolute top-4 left-4">
                 <Heart className="w-5 h-5 text-white" />
               </div>
@@ -89,20 +88,17 @@ const ProductCards = () => {
                 <Share2 className="w-5 h-5 text-white" />
               </div>
 
-              {/* Product Image */}
               <img
                 src={product.image}
                 alt={product.name}
                 className="w-[160px] h-[200px] object-contain mt-10"
               />
 
-              {/* Product Details */}
               <div className="w-full mt-4 px-2 text-white flex justify-between items-center">
                 <p className="text-sm font-semibold">{product.name}</p>
                 <p className="text-sm font-semibold">{product.price}</p>
               </div>
 
-              {/* Add to Cart */}
               <button className="mt-auto w-full bg-white text-black py-2 rounded-full flex items-center justify-center gap-2 font-medium">
                 <span className="text-xl">+</span> Add to Cart
               </button>
@@ -113,9 +109,7 @@ const ProductCards = () => {
       <div className="bg-white-100 box-shadow-lg mt-16">
       <section className="bg-white text-white py-16 md:py-20 lg:py-24 mt-16">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
-          {/* Top Section - Images and Title */}
           <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 mb-12 lg:mb-16">
-            {/* Left Image */}
             <div className="lg:col-span-1">
               <img
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2070&auto=format&fit=crop"
@@ -123,8 +117,6 @@ const ProductCards = () => {
                 className="w-full h-[300px] md:h-[400px] lg:h-[450px] object-cover rounded-2xl"
               />
             </div>
-
-            {/* Right Image */}
             <div className="lg:col-span-2">
               <img
                 src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?q=80&w=2070&auto=format&fit=crop"
@@ -132,8 +124,6 @@ const ProductCards = () => {
                 className="w-full h-[300px] md:h-[400px] lg:h-[450px] object-cover rounded-2xl"
               />
             </div>
-
-            {/* Large Title */}
           </div>
         </div>
       </section>
