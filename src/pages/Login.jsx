@@ -49,7 +49,8 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="h-[80vh] w-full bg-black flex flex-col lg:flex-row overflow-hidden">
+    <div className="p-4 rounded-2xl">
+    <div className="h-[80vh] ml-16 w-[90%] rounded-2xl bg-black flex flex-col lg:flex-row overflow-hidden">
       <div className="flex-1 relative min-h-[40vh] lg:min-h-full">
         <div>{/* image bg */}</div>
 
@@ -60,7 +61,7 @@ export default function LoginPage() {
         </div>
       </div>
 
-      <div className="w-full lg:w-[454px] xl:w-[28rem] h-10/12 rounded-2xl m-2 bg-white flex items-center justify-center p-4 lg:p-20">
+      <div className="w-full lg:w-[454px] xl:w-[28rem] mr-4 mt-6 h-11/12 rounded-2xl m-2 bg-white flex items-center justify-center p-4 lg:p-20">
         <div className="w-full max-w-sm">
           <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6 lg:mb-8">
             Log in
@@ -177,6 +178,7 @@ export default function LoginPage() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
