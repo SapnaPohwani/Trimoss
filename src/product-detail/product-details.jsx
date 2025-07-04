@@ -84,6 +84,10 @@ export default function HandMirrorPage() {
           <button className="w-full bg-black text-white py-2 rounded hover:bg-gray-900">
             Add to Cart
           </button>
+          <button className = "w-full bg-[#B8956A] text-[#350000] py-2 my-2 rounded hover:bg-[#bb8c57]">
+            BUY NOW
+          </button>
+
         </div>
       </div>
       <div className="hidden md:flex justify-between absolute bottom-6 left-6 right-6">
